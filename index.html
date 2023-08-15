@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <title>GitHub Profile</title>
 </head>
-<body>
-    Welcome
+<body class="bg-gray-100 font-sans">
+
+  <header class="bg-blue-600 text-white p-8">
+    <div class="container mx-auto flex justify-center items-center">
+      <img src="https://avatars.githubusercontent.com/syaddamm" alt="Profile Picture" class="w-20 h-20 rounded-full">
+      <h1 class="text-3xl ml-4">Syaddam Maulana</h1>
+    </div>
+  </header>
+
+  <main class="container mx-auto py-8 px-4">
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">About Me</h2>
+      <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique magna vel finibus bibendum.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">Repositories</h2>
+      <ul class="list-disc list-inside">
+        <li><a href="#">Repository 1</a></li>
+        <li><a href="#">Repository 2</a></li>
+        <li><a href="#">Repository 3</a></li>
+        <!-- Add more repositories as needed -->
+      </ul>
+    </section>
+
+    <!-- Add more sections for additional information (e.g., contributions, followers, following) -->
+  </main>
+
 </body>
 </html>
